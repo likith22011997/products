@@ -1,8 +1,29 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { MainComponent } from './main/main.component';
+import { DetailsComponent } from './details/details.component';
+import { CouComponent } from './cou/cou.component';
+import { DglComponent } from './dgl/dgl.component';
 
 
-const routes: Routes = [];
+const routes: Routes = [
+  {
+    path:'main',
+    component:MainComponent
+  },
+  {
+    path:'home',
+    component:DetailsComponent
+  },
+  {
+    path:'PMsDetails',
+    component:CouComponent
+  },
+  {
+    path:'ELDetails',
+    component:DglComponent
+  }
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
