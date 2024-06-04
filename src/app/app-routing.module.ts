@@ -2,8 +2,8 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { MainComponent } from './main/main.component';
 import { DetailsComponent } from './details/details.component';
-import { CouComponent } from './cou/cou.component';
-import { DglComponent } from './dgl/dgl.component';
+import { CouComponent } from './pms/cou.component';
+import { DglComponent } from './equip/dgl.component';
 
 
 const routes: Routes = [

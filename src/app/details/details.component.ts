@@ -14,7 +14,7 @@ export class DetailsComponent implements OnInit {
   pmsdetails(){
     console.log("PMS Details Page");
     }
-    eldetails(){
+      eldetails(){
       console.log("Equi Loan Details Page");
     }
 }

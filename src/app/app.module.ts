@@ -6,8 +6,8 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { MainComponent } from './main/main.component';
 import { DetailsComponent } from './details/details.component';
-import { CouComponent } from './cou/cou.component';
-import { DglComponent } from './dgl/dgl.component';
+import { CouComponent } from './pms/cou.component';
+import { DglComponent } from './equip/dgl.component';
 
 @NgModule({
   declarations: [
